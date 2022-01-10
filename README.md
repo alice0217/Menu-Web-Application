@@ -29,6 +29,6 @@ I created a menu app on my local host that presents users a variety of menu item
 
 ![restaurants](https://user-images.githubusercontent.com/71456398/148838295-ac923bac-7ef0-4df8-89e4-6d30a98366ea.jpg)
 
-On the restaurant's menu page, the user is able to view menu items, create a new menu item, edit and delete a menu item, and change the background image. 
+On the restaurant's menu page, the user is able to view menu items, create a new menu item, edit and delete a menu item, and change the background image. Every time the user edits, deletes, or add something, the web will flash a message.
 
 ![restaurant page](https://user-images.githubusercontent.com/71456398/148838551-802ec6fb-0fea-4e23-8576-66c70d63185a.jpg)
