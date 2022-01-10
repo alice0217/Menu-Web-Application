@@ -15,5 +15,8 @@ learn about frameworks and create an applicayion using Flask
 
 polish menu application, complete with API endpoints for JSON requests
 
+[Link to the course](https://www.udacity.com/course/full-stack-foundations--ud088)
+[Link to Udacity Solution Code](https://github.com/udacity/Full-Stack-Foundations)
 
+## Showcase:
 I created a menu app that presents users a variety of menu items they can view, create, modify, and delete.
