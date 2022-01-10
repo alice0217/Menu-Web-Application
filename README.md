@@ -20,5 +20,10 @@ polish menu application, complete with API endpoints for JSON requests
 [Link to Udacity Solution Code](https://github.com/udacity/Full-Stack-Foundations)
 
 ## Showcase:
-I created a menu app on my local host that presents users a variety of menu items they can view, create, modify, and delete.
+I created a menu app on my local host that presents users a variety of menu items they can view, create, modify, and delete. On the main page, the user can see a list of restaurants. The user can add a new restaurant and click on a certain restaurant to view the menu. 
+
 ![restaurants](https://user-images.githubusercontent.com/71456398/148838295-ac923bac-7ef0-4df8-89e4-6d30a98366ea.jpg)
+
+On the restaurant's menu page, the user is able to view menu items, create a new menu item, edit and delete a menu item, and change the background image. 
+
+![restaurant page](https://user-images.githubusercontent.com/71456398/148838551-802ec6fb-0fea-4e23-8576-66c70d63185a.jpg)
