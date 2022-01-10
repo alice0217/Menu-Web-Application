@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url(https://www.boston.com/wp-content/uploads/2021/06/Contessa1-60d1e42c317b1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.menu-background {
+  background-image: url(https://www.boston.com/wp-content/uploads/2021/06/Contessa1-60d1e42c317b1.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: 'georgia', serif;
+    margin: 0;
+}
+
+/*h1 {*/
+    /*border-bottom: 2px solid #eee;*/
+/*} */
+
+h2 {
+    font-size: 1.2em;
+}
+
+p,
+dd,
+dt {
+    color: #cccccc;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffcc;
+    font-size: .75em;
+}
+
+.pane {
+    position: absolute;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+    border-color: #999999;
+    background-color: #333333;
+    /*max-width: 800px;*/
+    /*width: 100%;*/
+    height: 50vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.header {
+    left: 50%;
+    text-align: center;
+}
+
+.name {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.description {}
+
+.price {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.editdeletepane {}
+
+.add {
+  border-bottom: 2px solid #999999;
+  text-align: center;
+  padding: 5px;
+}
+
+.menupane{
+  position: absolute;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 5px;
+  margin: auto;
+
+  border-color: #999999;
+  background-color: #333333;
+  /*max-width: 800px;*/
+  /*width: 100%;*/
+  /*height: 50vh;*/
+  /*display: flex;*/
+
+  width: 75vh;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.nameflashcreate {
+  position: relative;
+  padding: 5px;
+  border-color: #999999;
+  background-color: #333333;
+}
+
+.item {
+  position: relative;
+  /*border: 2px solid;*/
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  border-color: #999999;
+  background-color: #333333;
+}
+
+.all-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /*grid-auto-rows: minmax(100px, auto);*/
+  position: relative;
+}
+
+li {
+  color: #FFFFFF;
+}
+
+.menuheader {
+  text-align: center;
+}
+
