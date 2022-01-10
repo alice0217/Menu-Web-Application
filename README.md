@@ -1,12 +1,13 @@
 # Menu-Web-Application
+This Full Stack Web Developer Nanodegree Program provided by Udacity introduces the foundations of full stack web development. In this course, I learned how to build my own data-driven web application and how to send data from my server in other forms such as JSON requests. 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Intro](#intro)
+- [Lessons in this Course](#lessons-in-this-course)
 - [Showcase](#showcase)
 
-## Intro: 
-This Full Stack Web Developer Nanodegree Program provided by Udacity introduces the foundations of full stack web development. In this course, I learned how to build my own data-driven web application and how to send data from my server in other forms such as JSON requests. There are four lessons in this course:
+## Lessons in this Course: 
+There are four lessons in this course:
 
 ### Lesson 1: Working with CRUD 
 
