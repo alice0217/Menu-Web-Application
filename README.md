@@ -10,10 +10,10 @@ extract data from a database using Python and use a tool called object-relationa
 
 build my first data-driven web application 
 ### Lesson 3: Developing with frameworks
-
 learn about frameworks and create an applicayion using Flask
 ### Lesson 4: Iterative Development
 
 polish menu application, complete with API endpoints for JSON requests
+
 
 I created a menu app that presents users a variety of menu items they can view, create, modify, and delete.
