@@ -1,6 +1,11 @@
 # Menu-Web-Application
 This Full Stack Web Developer Nanodegree Program provided by Udacity introduces the foundations of full stack web development. In this course, I learned how to build my own data-driven web application and how to send data from my server in other forms such as JSON requests. 
 
+
+[Link to the course](https://www.udacity.com/course/full-stack-foundations--ud088)
+
+[Link to Udacity Solution Code](https://github.com/udacity/Full-Stack-Foundations)
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Lessons in this Course](#lessons-in-this-course)
@@ -20,10 +25,6 @@ learn about frameworks and create an applicayion using Flask
 #### Lesson 4: Iterative Development
 
 polish menu application, complete with API endpoints for JSON requests
-
-[Link to the course](https://www.udacity.com/course/full-stack-foundations--ud088)
-
-[Link to Udacity Solution Code](https://github.com/udacity/Full-Stack-Foundations)
 
 ## Showcase:
 I created a menu app on my local host that presents users a variety of menu items they can view, create, modify, and delete. On the main page, the user can see a list of restaurants. The user can add a new restaurant and click on a certain restaurant to view the menu. 
