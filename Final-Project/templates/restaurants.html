@@ -1,58 +1,53 @@
 <html>
 <head>
-	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
-	</head>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+</head>
 
-	<body class="intro-header" style="background-image: url({{ url_for('static', filename='restaurants.jpg')}})">
+<body class="intro-header" style="background-image: url({{ url_for('static', filename='restaurants.jpg')}})">
 
-	<div class = 'pane'>
-		<div class = 'header'>
-		<h1>Restaurants</h1>
-	</div>
+<div class='pane'>
+    <div class='header'>
+        <h1>Restaurants</h1>
+    </div>
 
-	<div class="add">
-		<a href = '{{url_for('newRestaurants') }}'>Add a New Restaurant</a>
-	</div>
+    <div class="add">
+        <a href='{{url_for(' newRestaurants') }}'>Add a New Restaurant</a>
+    </div>
 
 
-<div class = 'flash'>
-		      {% with messages = get_flashed_messages() %}
-      {% if messages %}
+    <div class='flash'>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
 
         <ul>
-        {% for message in messages %}
-            <li> <strong> {{ message }} </strong> </li>
-        {% endfor %}
+            {% for message in messages %}
+            <li><strong> {{ message }} </strong></li>
+            {% endfor %}
         </ul>
         {% endif %}
-    {% endwith %}
+        {% endwith %}
 
-</div>
-
-
-		{% for restaurant in restaurants %}
-    <div class = 'name'>
-		<span class = 'name'><h3><a href = "{{url_for('showMenu', restaurant_id = restaurant.id )}}">{{restaurant.name}}</a></h3></span>
-
-        <div class = "editdeletepane">
-
-	    <a href='{{url_for('editRestaurant',restaurant_id = restaurant.id)}}' >Edit</a>
-	    <a href='{{url_for('deleteRestaurant', restaurant_id = restaurant.id)}}' >Delete</a>
-	    </div>
-
-	</div>
+    </div>
 
 
-		{% endfor %}
+    {% for restaurant in restaurants %}
+    <div class='name'>
+        <span class='name'><h3><a href="{{url_for('showMenu', restaurant_id = restaurant.id )}}">{{restaurant.name}}</a></h3></span>
+
+        <div class="editdeletepane">
+
+            <a href='{{url_for(' editRestaurant',restaurant_id = restaurant.id)}}' >Edit</a>
+            <a href='{{url_for(' deleteRestaurant', restaurant_id = restaurant.id)}}' >Delete</a>
+        </div>
+
+    </div>
 
 
-
+    {% endfor %}
 
 
 </div>
-	</body>
-
-
+</body>
 
 
 </html>
