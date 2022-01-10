@@ -8,13 +8,13 @@ This Full Stack Web Developer Nanodegree Program provided by Udacity introduces 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Lessons in this Course](#lessons-in-this-course)
+- [Intro](#intro)
 - [Showcase](#showcase)
 
-## Lessons in this Course: 
+## Intro: 
 There are four lessons in this course:
 
-#### Lesson 1: Working with CRUD 
+#### - Lesson 1: Working with CRUD 
 
 extract data from a database using Python and use a tool called object-relational mapping (ORM) to manipulate queries as objects in Python 
 #### Lesson 2: Making a web server
