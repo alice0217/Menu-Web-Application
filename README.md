@@ -9,6 +9,7 @@ This Full Stack Web Developer Nanodegree Program provided by Udacity introduces 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
+- [Tools](#tools)
 - [Showcase](#showcase)
 
 ## Intro: 
@@ -25,6 +26,9 @@ There are four lessons in this course:
 #### Lesson 4: Iterative Development
 - polish menu application
 - complete with API endpoints for JSON requests
+
+## Tools:
+- SQLAlchemy 
 
 ## Showcase:
 I created a menu app on my local host that presents users a variety of menu items they can view, create, modify, and delete. On the main page, the user can see a list of restaurants. The user can add a new restaurant and click on a certain restaurant to view the menu. 
