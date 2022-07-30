@@ -9,9 +9,10 @@ This Full Stack Web Developer Nanodegree Program provided by Udacity introduces 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
-- [Tools](#tools)
+- [Tools, Frameworks, Modules, and Libraries](#tools-frameworks-modules-and-libraries)
 - [Showcase](#showcase)
-- [TODO](#todo)
+- [Changes](#changes)
+- [USEME](#useme)
 
 ## Intro: 
 There are four lessons in this course:
@@ -28,8 +29,11 @@ There are four lessons in this course:
 - polish menu application
 - complete with API endpoints for JSON requests
 
-## Tools:
+## Tools, Frameworks, Modules, and Libraries:
 - SQLAlchemy 
+- Flask 
+- os 
+- Werkzeug
 
 ## Showcase:
 I created a menu app on my local host that presents users a variety of menu items they can view, create, modify, and delete. On the main page, the user can see a list of restaurants. The user can add a new restaurant and click on a certain restaurant to view the menu. 
@@ -40,5 +44,16 @@ On the restaurant's menu page, the user is able to view menu items, create a new
 
 ![restaurant page](https://user-images.githubusercontent.com/71456398/148838551-802ec6fb-0fea-4e23-8576-66c70d63185a.jpg)
 
-## TODO:
-- add more css effects to polish the web
+## Changes:
+
+- allowed the user to change the background image of the restaurant.
+
+## USEME:
+
+To run this final project
+
+1. run database_setup.py to create the database. 
+
+2. run lotsofmenus.py to populate the database. 
+
+3. run finalproject.py and navigate to localhost:5000 in your browser. 
