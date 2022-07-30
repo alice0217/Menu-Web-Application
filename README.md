@@ -50,7 +50,7 @@ On the restaurant's menu page, the user is able to view menu items, create a new
 
 ## USEME:
 
-To run this final project
+To run this final project, 
 
 1. run database_setup.py to create the database. 
 
