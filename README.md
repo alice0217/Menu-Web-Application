@@ -8,13 +8,13 @@ This Full Stack Web Developer Nanodegree Program provided by Udacity introduces 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Intro](#intro)
+- [Course Introduction](#course-introduction)
 - [Tools, Frameworks, Modules, and Libraries](#tools-frameworks-modules-and-libraries)
 - [Showcase](#showcase)
-- [Changes](#changes)
+- [Modifications upon the Source Code](#modifications-upon-the-source-code)
 - [USEME](#useme)
 
-## Intro: 
+## Course Introduction: 
 There are four lessons in this course:
 
 #### Lesson 1: Working with CRUD
@@ -44,7 +44,7 @@ On the restaurant's menu page, the user is able to view menu items, create a new
 
 ![restaurant page](https://user-images.githubusercontent.com/71456398/148838551-802ec6fb-0fea-4e23-8576-66c70d63185a.jpg)
 
-## Changes:
+## Modifications upon the Source Code:
 
 - allowed the user to change the background image of the restaurant.
 
